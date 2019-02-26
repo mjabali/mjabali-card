@@ -1,11 +1,11 @@
-# ReverentGeek Calling Card
+# Marcelo Jabali's Card
 
-In case you ever need my information and all you have is a terminal and `npm`.
+Just another personal card out there.
 
 ## Usage
 
 ```bash
-npx reverentgeek
+npx @mjabali/card
 ```
 
 ## Credit

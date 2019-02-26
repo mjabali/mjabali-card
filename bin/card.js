@@ -6,12 +6,7 @@ const chalk = require( "chalk" );
 const boxen = require( "boxen" );
 
 const newline = "\n";
-const banner = `                             _               _   
- ___ ___ _ _ ___ ___ ___ ___| |_ ___ ___ ___| |_ 
-|  _| -_| | | -_|  _| -_|   |  _| . | -_| -_| '_|
-|_| |___|\\_/|___|_| |___|_|_|_| |_  |___|___|_,_|
-                                |___|            
-`;
+const banner = "\n";
 
 // Define options for Boxen
 const options = {
@@ -22,15 +17,15 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-	name: chalk.white( "David Neal" ),
-	handle: chalk.cyan( "reverentgeek" ),
-	work: chalk.white( "Senior Developer Advocate at Okta" ),
-	workUrl: chalk.cyan( "https://developer.okta.com" ),
-	twitter: chalk.cyan( "https://twitter.com/reverentgeek" ),
-	github: chalk.cyan( "https://github.com/reverentgeek" ),
-	linkedin: chalk.cyan( "https://linkedin.com/in/davidneal" ),
-	web: chalk.cyan( "https://reverentgeek.com" ),
-	npx: chalk.white( "npx reverentgeek" ),
+	name: chalk.white( "Marcelo Jabali" ),
+	handle: chalk.cyan( "mjabali" ),
+	work: chalk.white( "Principal Product Manager at Oracle" ),
+	workUrl: chalk.cyan( "https://www.oracle.com" ),
+	twitter: chalk.cyan( "https://twitter.com/mjabali" ),
+	github: chalk.cyan( "https://github.com/mjabali" ),
+	linkedin: chalk.cyan( "https://linkedin.com/in/jabali" ),
+	web: chalk.cyan( "https://marcelojabali.blogspot.com" ),
+	npx: chalk.white( "npx mjabali" ),
 	labelWork: chalk.white.bold( "      Work:" ),
 	labelWorkUrl: chalk.white.bold( "           " ),
 	labelTwitter: chalk.white.bold( "   Twitter:" ),
